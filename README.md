@@ -1,7 +1,7 @@
-#Aim
+# Aim
 To write a user interface programme for an airport staff 
 
-#Objective
+# Objective
 - Create parent classes named human, aircraft and flight
 - Create subclasses for the parent classes
 - Have methods and characteristics to define classes
