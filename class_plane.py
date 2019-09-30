@@ -1,11 +1,12 @@
-from class_flight import *
-class Plane(Flight):
-    def __init__(self, destination, origin, flight_number, departure, arrivals, model, cabin_crew, engine_type, capacity):
-        super().__init__(destination, origin, flight_number, departure, arrivals)
+class Plane():
+    def __init__(self, model, cabin_crew, engine_type, capacity):
         self.model = model
         self.cabin_crew = cabin_crew
         self.engine_type = engine_type
         self.capacity = capacity
+
+    def plane(self):
+        return self.model + ',' + self.cabin_crew
     def fuelling_plane(self):
         return 'Fuel tanker has been connected to the plane'
     def adding_luggage(self):
